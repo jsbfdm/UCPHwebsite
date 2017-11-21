@@ -1,0 +1,13 @@
+#pactu p{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#pactu{
+  display: flex;
+  flex-direction: column;
+}
+
+form:nth-of-type(1) button{
+  margin-bottom: 50px;
+}

@@ -1,0 +1,363 @@
+#entete{
+  width: 100%;
+  background-image: url("images/photo_page_accueil.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+#logoins{
+  display: flex;
+}
+
+#logoins img{
+  width: 40px;
+  height: 22px;
+  margin-top: 0px;
+  margin-left: 6px;
+}
+
+#logoins a{
+  margin-top: 10px;
+}
+
+
+#logofb{
+  display: flex;
+}
+
+
+
+#logofb img{
+  width: 40px;
+  height: 20px;
+  margin-top: 0px;
+}
+
+
+#logofb a{
+  text-decoration: none;
+  color: inherit;
+}
+
+#logofb a:hover{
+  text-decoration: inherit;
+}
+
+#logofb a{
+  margin-top: 10px;
+}
+
+#logotwitter{
+  display: flex;
+}
+
+
+
+#logotwitter img{
+  width: 40px;
+  height: 40px;
+  margin-top: -10px;
+}
+
+
+#logotwitter a{
+  text-decoration: none;
+  color: inherit;
+}
+
+#logotwitter a:hover{
+  text-decoration: inherit;
+}
+
+#logotwitter a{
+  margin-top: 10px;
+}
+
+
+#logoins a{
+  text-decoration: none;
+  color: inherit;
+}
+
+#logoins a:hover{
+  text-decoration: inherit;
+}
+
+.titre{
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border-radius: 30px;
+  opacity: 0.3;
+  width: 70%;
+  height: 20%;
+}
+
+  #entete h1:nth-of-type(1){
+  position: absolute;
+  font-size: 60px;
+  color: black;
+}
+
+#quisommesnous{
+  width: 100%;
+  height: 650px;
+  background-image: url("images/groupe.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#quisommesnous h2{
+  color: black;
+}
+
+#presentation p{
+  position: absolute;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+  text-align: justify;
+  text-indent: 5%;
+  font-size: 20px;
+  color: black;
+
+}
+
+#presentation{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+#p{
+  display: flex;
+  width: 80%;
+  height: 150px;
+  justify-content: center;
+  background-color: white;
+  border-radius: 30px;
+  opacity: 0.5;
+}
+
+#qsm h2{
+ text-align: center;
+ color: black;
+}
+
+#qsm{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 30px;
+}
+
+#quisommesnous h3{
+ text-align: center;
+ color: black;
+}
+
+
+
+.bureau{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 75px;
+}
+/*
+.bureau .nom{
+margin-left: 20px;
+margin-right: 20px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 33%;
+height: 200px;
+}
+
+.bureau .nom .image{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+}
+
+.bureau .nom .pres{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 70px;
+  background: white;
+  opacity: 0.8;
+}
+
+.bureau .nom .pres p{
+  font-size: 16px;
+  color: black;
+}
+
+.bureau .nom img{
+  width: 30%;
+}
+*/
+
+#maraudes{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#m{
+width: 100%;
+height: 100px;
+display: flex;
+justify-content: center;
+align-items: flex-end;
+color: black;
+background-image: url("images/ciel.png");
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+background-size: cover;
+}
+
+.photosmaraudes{
+  display: flex;
+  width: 100%;
+}
+
+.photosmaraudes img{
+  width: 33.3333%;
+}
+
+#citations{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+
+
+}
+#edi{
+  display: block;
+  width: 100%;
+  height: 30px;
+  background-color: black;
+}
+
+#citations img{
+  display: none;
+  width: 100%;
+  height: 150px;
+}
+
+#citations .active{
+  display: block;
+}
+
+#carte{
+  width: 80%;
+  height: 650px;;
+}
+
+#photosmaraudes{
+  width: 100%;
+  display: flex;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+#petitsdejeuner{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+}
+
+#img1{
+  display: flex;
+}
+
+#petitsdejeuner p{
+  font-size: 20px;
+  text-align: justify;
+  text-indent: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#petitsdejeuner #img1 img{
+  width: 50%;
+  height: auto;
+}
+
+#Presse h2{
+  text-align: center;
+}
+
+#nouscontacter{
+  margin-top: 100px;
+  width: 100%;
+  height: 550px;
+}
+
+#h{
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 650px){
+#entete h1:nth-of-type(1){
+  font-size: 30px;
+  text-align: center;
+}
+.titre{
+  width: 100%;
+  height: 40%;
+}
+#presentation{
+  height: 100%;
+}
+
+#carte{
+  height: 50%;
+}
+}
+@media screen and (max-width: 1200px){
+  #entete h1:nth-of-type(1){
+    font-size: 50px;
+    text-align: center;
+  }
+  @media screen and (max-width: 900px){
+    .titre{
+      width: 100%;
+    }
+}
